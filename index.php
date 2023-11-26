@@ -6,7 +6,7 @@
     <title>Get method exercise</title>
 </head>
 <body>
-    
+    <!-- Program that uses get from url to store name and age -->
     <?php
     if (isset($_GET["nombre"])&& !empty($_GET["nombre"]) && isset ($_GET["edad"])&& !empty($_GET["edad"])){
         $nombre = $_GET["nombre"];
